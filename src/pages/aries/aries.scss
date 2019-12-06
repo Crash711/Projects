@@ -1,0 +1,30 @@
+page-aries {
+
+    .scrollContent{
+      overflow-y: auto;
+    }
+  .buttonMargin {
+    bottom: 35px;
+    right: calc(5px + env(safe-area-inset-right));
+  }
+
+  .listMargin {
+    margin: -260px;
+    align-content: center;
+  }
+
+  .optionMargin {
+    bottom: -70px;
+    right: -76px;
+  }
+
+  .optionMargin2 {
+    bottom: -70px;
+    right: -64px;
+  }
+
+  .optionMargin3 {
+    bottom: -70px;
+    right: -60px;
+  }
+}
